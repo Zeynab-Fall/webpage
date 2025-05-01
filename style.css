@@ -18,3 +18,7 @@ img {
 p {
     font-size: 18px;
 }
+
+.external-link {
+    color: darkgreen;
+}
