@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("collection.json")
         .then(response => response.json())
         .then(data => {
-            const item = data.find(item => item.id === itemId);
+            const item = data.find(item => item.image === itemId);
             if (item) {
                 // Update visible page content
                 document.getElementById("item-title").innerText = item.title;
